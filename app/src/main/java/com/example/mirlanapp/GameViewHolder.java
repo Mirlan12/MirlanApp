@@ -23,7 +23,7 @@ public class GameViewHolder extends RecyclerView.ViewHolder {
     gameDescription = itemView.findViewById(R.id.TextViewTwo);
 
         gameIcon.setImageResource(game.image);
-    gameName.setText(game.name);
-       gameDescription.setText(game.description);
+        gameName.setText(game.name);
+        gameDescription.setText(game.description);
     }
 }

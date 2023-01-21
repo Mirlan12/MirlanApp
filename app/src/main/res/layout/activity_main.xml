@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide"
         tools:listitem="@layout/item_game"
         tools:itemCount="8"/>
 

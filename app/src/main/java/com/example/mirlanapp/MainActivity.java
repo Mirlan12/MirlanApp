@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Game("Elden Ring", "Игра с открытым миром;", R.drawable.header));
         arrayList.add(new Game("FIFA 23", "Игра в жанре симулятора футбола;", R.drawable.capsule));
         arrayList.add(new Game("Sifu", "Экшен от третьего лица ", R.drawable.ssss));
-        arrayList.add(new Game("Rome", "MMO RPG", R.drawable.RRRRR));
+        arrayList.add(new Game("Rome", "MMO RPG", R.drawable.rome));
     }
 
     private void setAdater(){
